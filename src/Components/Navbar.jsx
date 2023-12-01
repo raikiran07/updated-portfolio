@@ -44,6 +44,7 @@ const Navbar = ({section,setSection}) => {
         </Link>
        
       </li>
+      
     </ul>
    </navbar>
   )
