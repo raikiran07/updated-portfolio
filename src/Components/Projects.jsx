@@ -6,7 +6,7 @@ import ProjectPage from './ProjectPage'
 const Projects = ({recentProjects}) => {
     
   return (
-    <div className="page project-container  mx-auto">
+    <div className="page project-container border rounded-lg  mx-auto">
         <div className="project-section">
             <p className="project-title">
                 Recent Projects

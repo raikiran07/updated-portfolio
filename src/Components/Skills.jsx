@@ -5,7 +5,7 @@ import Insomnia from '../assets/insomnia.svg'
 
 const Skills = () => {
   return (
-    <div className="page skill-container  mx-auto">
+    <div className="page border skill-container rounded-lg  mx-auto">
     <div className="project-section">
         <p className="project-title">
             Ui/Ux & Frontend

@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 const AboutMe = () => {
   return (
     
-         <div className="page about-me border border-black">
+         <div className="page about-me border border-black rounded-lg">
       <div className="profile-container">
         {/* <img src={profile} alt="profile image" className="profile-image" /> */}
       </div>

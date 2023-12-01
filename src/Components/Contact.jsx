@@ -7,7 +7,7 @@ const Contact = () => {
       return <p>Thanks for joining!</p>;
   }
   return (
-    <div className="page">
+    <div className="page border rounded-lg">
     <form onSubmit={handleSubmit} className="max-w-xs mx-auto md:max-w-lg" max-w-max>
       <label htmlFor="email" className="label-text">
         Email Address

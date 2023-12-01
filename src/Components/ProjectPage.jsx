@@ -12,7 +12,7 @@ const ProjectPage = ({recentProjects}) => {
   const {languages,description,demo} = currentProject
   
   return (
-    <div className="page project-page max-w-sm mx-auto   rounded-lg overflow-hidden relative md:p-5">
+    <div className="page project-page max-w-sm mx-auto border rounded-lg overflow-hidden relative md:p-5">
         <div className="image-container rounded-md">
         <img src={`..${currentProject.image}`} alt="project image" />
         
