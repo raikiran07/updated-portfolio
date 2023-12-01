@@ -483,7 +483,7 @@ height:0;
   }
 }
 
-@media screen and (max-width:650px){
+@media screen and (max-width:400px){
   .profile-container{
     max-width:100px;
     min-height:100px;
