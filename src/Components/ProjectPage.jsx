@@ -4,10 +4,10 @@ import {useParams,Link} from 'react-router-dom'
 import Birthday from '../assets/birthday.png'
 import Live from '../assets/click-unscreen.gif'
 
-const ProjectPage = ({recentProjects}) => {
-  console.log(recentProjects)
+const ProjectPage = ({recentProjects,oldProjects}) => {
+  const newList = [...recentProjects,...oldProjects]
   const {id} = useParams()
-  const [currentProject] = recentProjects.filter(project=>project.id==id)
+  const [currentProject] = newList.filter(project=>project.id==id)
   console.log(currentProject)
   const {languages,description,demo} = currentProject
   
@@ -18,7 +18,7 @@ const ProjectPage = ({recentProjects}) => {
         
         </div>
         <div className="link-tag flex items-center justify-center text-sm p-2 rounded-full">
-          <a href="#">
+          <a href={demo} target='_blank'>
             <span>Live</span>
           </a>
           <img src={Live} alt="click gif" className="gif" />

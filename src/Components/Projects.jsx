@@ -3,7 +3,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import ProjectPage from './ProjectPage'
 
-const Projects = ({recentProjects}) => {
+const Projects = ({recentProjects,oldProjects}) => {
     
   return (
     <div className="page project-container border rounded-lg  mx-auto">
@@ -34,12 +34,20 @@ const Projects = ({recentProjects}) => {
                 Old Projects
             </p>
             <div className="container">
-                <div className="project"></div>
-                <div className="project"></div>
-                <div className="project"></div>
-                <div className="project"></div>
-                <div className="project"></div>
-                <div className="project"></div>
+                {
+                    oldProjects.map(project=>{
+                        return(
+                            <div className="project" key={project.id}>
+                                <Link to={`/project/${project.id}`} element={<ProjectPage 
+                                recentProjects={recentProjects}
+                                />}>
+                                <img src={project.image} alt="project image" />
+                                </Link>
+                                
+                            </div>
+                        )
+                    })
+                }
             </div>
         </div>
     </div>
