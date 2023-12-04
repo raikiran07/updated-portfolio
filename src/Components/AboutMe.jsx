@@ -10,8 +10,7 @@ const AboutMe = () => {
         {/* <img src={profile} alt="profile image" className="profile-image" /> */}
       </div>
       <div className="text-container">
-        Hi! everyone, I am Kiran Rai a fullstack webdeveloper based in India. I have an experience of 4 years in this domain. I create beautiful and effective designs for clients to help their business to scale.
-      </div>
+        Hi! everyone, I am Kiran Rai a fullstack webdeveloper based in India. I have an experience of 2 years in this domain. I help business to go online by providing beautiful websites and designs to scale their accessibility and availability to a larger audience.      </div>
       <div className="resume-container flex items-center justify-center">
         <Link to='/resume'>
         <button className="resume-btn border border-black bg-black text-white flex items-center justify-center gap-2">
