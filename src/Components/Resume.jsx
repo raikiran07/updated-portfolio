@@ -1,4 +1,5 @@
 import React from 'react'
+import Myresume from '../assets/KiranRai_resume_2023.pdf'
 
 const Resume = ({setSection}) => {
 setSection('Resume')
@@ -111,7 +112,7 @@ setSection('Resume')
         </div>
 
         <div className="button-container text-center md:text-left md:pl-5">
-            <a href="../assets/KiranRai_resume_2023.pdf" download>
+            <a href={Myresume} download>
             <button className="border border-black p-1 rounded-full text-xs bg-black text-white mt-5 md:text-lg md:px-5 md:mt-7 md:mb-5">Download Resume</button>
             </a>
         
