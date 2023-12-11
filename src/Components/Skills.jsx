@@ -310,9 +310,7 @@ const Skills = () => {
             </div>
            
             </div>
-            <div className="skill flex items-center justify-center"></div>
-            <div className="skill flex items-center justify-center"></div>
-            <div className="skill flex items-center justify-center"></div>
+            
         </div>
     </div>
 </div>

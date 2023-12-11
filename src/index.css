@@ -95,7 +95,12 @@
  margin-top:0.5rem;
  padding:8px 15px;
  border-radius:20px;
+ transition:all .3s ease;
  
+}
+
+.download-btn{
+  transition:all .3s ease;
 }
 
 .navbar{
@@ -262,6 +267,7 @@
 
 .email-field,.message-box{
   background:rgba(248, 248, 248, 0.933);
+  color:#888;
 }
 
 .email-field:focus,.message-box:focus{
@@ -413,6 +419,15 @@ height:0;
     display:flex;
     align-items:center;
     justify-content:center;
+  }
+
+  .resume-btn:hover{
+    font-size:18px;
+
+  }
+
+  .download-btn:hover{
+    font-size:20px;
   }
 
   .page{

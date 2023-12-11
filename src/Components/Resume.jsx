@@ -113,7 +113,7 @@ setSection('Resume')
 
         <div className="button-container text-center md:text-left md:pl-5">
             <a href={Myresume} download>
-            <button className="border border-black p-1 rounded-full text-xs bg-black text-white mt-5 md:text-lg md:px-5 md:mt-7 md:mb-5">Download Resume</button>
+            <button className="download-btn border border-black p-1 rounded-full text-xs bg-black text-white mt-5 md:text-lg md:px-5 md:mt-7 md:mb-5">Download Resume</button>
             </a>
         
         </div>
