@@ -23,7 +23,7 @@ import Api from './assets/job-api.png'
 import Joke from './assets/joke-generator.png'
 import Rock from './assets/rock-paper-scissors.png'
 import Tick from './assets/tic-tac-toe.png'
-import Shizen from './assets/Shizen.png'
+import Shizen from './assets/shizen.png'
 
 function App() {
   const [count, setCount] = useState(0)
