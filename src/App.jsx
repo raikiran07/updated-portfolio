@@ -23,6 +23,7 @@ import Api from './assets/job-api.png'
 import Joke from './assets/joke-generator.png'
 import Rock from './assets/rock-paper-scissors.png'
 import Tick from './assets/tic-tac-toe.png'
+import Shizen from './assets/Shizen.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -69,6 +70,14 @@ function App() {
 const recentProjects = [
     {
         id:7,
+        image:Shizen,
+        title:"Web development",
+        languages:["html","css","javascript"],
+        description:"website to help users going through mental health issue such as depression, anxiety etc.",
+        demo:"https://raikiran07.github.io/shizen.github.io/index.html"
+    },
+    {
+        id:8,
         image:Blog,
         title:"Web development",
         languages:["html","css","javascript","react","tailwind css"],
@@ -76,7 +85,7 @@ const recentProjects = [
         demo:"https://react-blog-liard-seven.vercel.app/"
     },
     {
-        id:8,
+        id:9,
         image:Rock,
         title:"Web development",
         languages:["html","css","javascript"],
@@ -84,7 +93,7 @@ const recentProjects = [
         demo:"https://rockpaperscissors-eta.vercel.app/"
     },
     {
-        id:9,
+        id:10,
         image:Api,
         title:"Web development",
         languages:["nodejs","express","mongodb"],
@@ -92,7 +101,7 @@ const recentProjects = [
         demo:"https://vercel.com/raikiran07/job-api"
     },
     {
-        id:10,
+        id:11,
         image:Quiz,
         title:"Web development",
         languages:["html","css","javascript"],
@@ -100,7 +109,7 @@ const recentProjects = [
         demo:"https://infallible-pike-3b2a85.netlify.app/"
     },
     {
-        id:11,
+        id:12,
         image:Ludo,
         title:"Web development",
         languages:["html","css","javascript"],
@@ -108,7 +117,7 @@ const recentProjects = [
         demo:"https://optimistic-roentgen-809ddf.netlify.app/"
     },
     {
-        id:12,
+        id:13,
         image:Joke,
         title:"Web development",
         languages:["html","css","javascript"],
@@ -116,7 +125,7 @@ const recentProjects = [
         demo:"https://scintillating-custard-c99afa.netlify.app/"
     },
     {
-        id:13,
+        id:14,
         image:Tick,
         title:"Web development",
         languages:["html","css","javascript","react"],
